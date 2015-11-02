@@ -8,7 +8,7 @@ will be developed more over time.
 
 
 
-Current issues:
+Current issues: <br />
 -The way that js is evaluated presents a security risk if ran on anything other than the file protocol. This website
 in its current form should only be ran locally.
 
