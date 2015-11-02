@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="styles/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div id="content">
+      <div id="topBar">
+        <div id="logo">
+          <!--Use of span to allow flexibility in coloring logo-->
+          <span id="codeSpan">code</span><span id="fuseSpan">Fuse</span><span id="rSpan">R</span>
+        </div>
+
+        <!--Selectable window buttons-->
+        <div id="menu">
+          <ul>
+            <li class="selector selected" name="html">HTML</li>
+            <li class="selector" name="css">CSS</li>
+            <li class="selector" name="javascript">JavaScript</li>
+            <li class="selector selected" name="result">Result</li>
+          </ul>
+        </div>
+        <div id="runButton">
+          <button id="run">Run</button>
+        </div>
+      </div>
+      <!--Break the floats to allow page flow to return to normal-->
+      <div id="clearDiv"></div>
+      <div class="codeContainer" id="HTMLContainer">
+        <div class="label">HTML</div>
+        <textarea class="code" id="html"></textarea>
+      </div>
+      <div class="codeContainer" id="CSSContainer">
+        <div class="label">CSS</div>
+        <textarea class="code" id="css"></textarea>
+      </div>
+      <div class="codeContainer" id="JavaScriptContainer">
+        <div class="label">JavaScript</div>
+        <textarea class="code" id="js"></textarea>
+      </div>
+      <div class="codeContainer" id="ResultContainer">
+        <div class="label">Result</div>
+        <div class="resultContainer">
+          <iframe id="resultFrame"></iframe>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

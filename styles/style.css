@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+   Helvetica, Arial, "Lucida Grande", sans-serif;
+  background-color: #ECECEA;
+}
+
+#topBar {
+  background-color: orange;
+  width: 100%;
+  height: 60px;
+  padding: 10px 10px 10px 10px;
+}
+
+#logo {
+  font-size: 2.0em;
+  background-color: #77B395;
+  width: 160px;
+  padding: 3px 3px 3px 3px;
+  text-align: center;
+  border-radius: 80px;
+  float: left;
+  position: relative;
+  top: 7px;
+}
+
+#codeSpan {
+  color: green;
+}
+
+#fuseSpan {
+  color: blue;
+}
+
+#rSpan {
+  color: purple;
+}
+
+#menu {
+  padding-left: 350px;
+}
+
+#menu li {
+  float: left;
+  margin-left: 40px;
+  list-style: none;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  border-radius: 60px;
+  color: white;
+  position:relative;
+  top:-5px;
+}
+
+#runButton button {
+  float: right;
+  margin: 5px 20px 0 0;
+  height: 40px;
+  width: 80px;
+  position: relative;
+  top: -12px;
+  background-color: #77B395;
+  border-radius: 30px;
+}
+
+#clearDiv {
+  clear: both;
+}
+
+.codeContainer {
+  width: 50%;
+  float: left;
+  position: relative;
+}
+
+.code {
+  width: 100%;
+  height: 100%;
+  border-left: 1px solid grey;
+  -webkit-box-sixing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#CSSContainer, #JavaScriptContainer {
+  display: none;
+}
+
+.selected {
+  background-color: grey !important;
+}
+
+.label {
+  float: right;
+  color: grey;
+}
+
+#resultFrame {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-left: 1px solid grey;
+}
+
+.resultContainer {
+  height: 100%;
+}
+
+textarea {
+  border: none;
+  resize: none;
+  font-family: monotype;
+  font-size: 100%;
+}
