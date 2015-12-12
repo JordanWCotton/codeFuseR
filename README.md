@@ -6,17 +6,10 @@ results window. It is built using jquery and some fairly basic html/css work. It
 will be developed more over time. 
 
 
-
-
 <b>Current issues:</b> <br />
 -The way that js is evaluated presents a security risk if ran on anything other than the file protocol. This website
 in its current form should only be ran locally.
 
--Currently the website does not scale down to smaller screens smoothly, and will not display correctly on mobile 
-devices.
-
 -The coding windows do not allow the use of normal word processing functionality, such as the tab keys.
-
-
 
 The above issues will be the first to be addressed, and more will be added as I revise this project.
